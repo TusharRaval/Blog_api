@@ -2,9 +2,9 @@
 
 A simple Express.js API for managing blog posts, allowing users to create, retrieve all posts, and retrieve individual posts by ID. This project demonstrates basic CRUD operations with in-memory data storage.
 
-## Features
-  Create Post: Add a new blog post.
-  Get All Posts: Retrieve all blog posts.
+## Features  <br />
+  Create Post: Add a new blog post.  <br />
+  Get All Posts: Retrieve all blog posts.  <br />
   Get Post by ID: Retrieve a specific blog post by its ID.
 
 ## Prerequisites
@@ -12,32 +12,32 @@ A simple Express.js API for managing blog posts, allowing users to create, retri
 
 ## Clone the repository
   git clone https://github.com/your-username/blog-api.git <br />
-  cd blog-api
-  npm install
-  node index.js
+  cd blog-api  <br />
+  npm install  <br />
+  node index.js  <br />
 The server will start on http://localhost:3000.
 
 ## API Endpoints
-  ### Retrieve All Blog Posts     
-  Endpoint: /posts
-  Method: GET
+  ### Retrieve All Blog Posts      <br />
+  Endpoint: /posts  <br />
+  Method: GET  <br />
   Description: Retrieve a list of all blog posts.
 
- ## Retrieve a Blog Post by ID
-   Endpoint: /posts/:id
-   Method: GET
+ ## Retrieve a Blog Post by ID  <br />
+   Endpoint: /posts/:id  <br />
+   Method: GET  <br />
    Description: Retrieve a specific blog post by its unique ID.
 
-## Create a New Blog Post
-   Endpoint: /posts
-   Method: POST
+## Create a New Blog Post  <br />
+   Endpoint: /posts  <br />
+   Method: POST  <br />
    Description: Creates a new blog post.
 
-# Error Responses
-  404 Not Found: Returned if the specified blog post ID is not found.
-  400 Bad Request: Returned if required fields
+# Error Responses  <br />
+  404 Not Found: Returned if the specified blog post ID is not found.  <br />
+  400 Bad Request: Returned if required fields 
   
-# Running Tests
+# Running Tests  <br />
   This project doesn't currently include automated tests, but you can manually test the API endpoints using Postman
 
 
