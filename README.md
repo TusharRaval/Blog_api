@@ -11,7 +11,7 @@ A simple Express.js API for managing blog posts, allowing users to create, retri
   Node.js and npm installed on your local machine.
 
 ## Clone the repository
-  git clone https://github.com/your-username/blog-api.git
+  git clone https://github.com/your-username/blog-api.git <br />
   cd blog-api
   npm install
   node index.js
